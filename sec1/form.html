@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+</head>
+<body>
+    <h1>Student Admission Form</h1>
+
+    <form>
+        <label for="">Student Name</label>
+        <input type="text" required minlength="3"> 
+
+        <br><br>
+
+        <label for="">Email Address</label>
+        <input type="email" required>
+
+        <br><br>
+
+        <label for="">Contact</label>
+        <input type="number">
+
+        <br><br>
+
+        <label for="">Address</label>
+        <textarea rows="5" cols="30"></textarea>
+
+        <br><br>
+
+        <label for="">Select Course</label>
+        <select>
+            <option>MERN Stack Development</option>
+             <option>Artificial Intelligence</option>
+              <option>Data Analytics</option>
+               <option>IOT</option>
+           
+        </select>
+
+        <br>
+
+        <label for="">College</label>
+        <input type="text" list="College">
+
+        <datalist id="College">
+            <option>BBDU</option>
+             <option>SRMU</option>
+              <option>GOEL</option>
+               <option>Amity</option>
+        </datalist>
+        
+        <br><br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+
+        <br><br>
+
+        <input type="checkbox" required>
+        <label for="">I Accept the terms & conditions.</label>
+
+        <br>
+
+        <details>
+            <summary>Terms & Conditions</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores in esse dicta est repudiandae ex architecto, ipsa reprehenderit a delectus quas dignissimos nam minima hic recusandae cum voluptatem nihil eveniet!</p>
+        </details>
+        
+        <br>
+
+           <button type="submit">Submit</button>
+
+
+    </form>
+</body>
+</html>
