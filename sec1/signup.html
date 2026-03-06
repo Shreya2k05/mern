@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+
+    <style>
+
+        *{font-family: Roboto;
+
+        }
+
+        .card{
+            border: 2px solid paleturquoise;
+            width: 20%;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.537);
+
+        }
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            height: 100vh
+        }
+
+        .text-input{
+            display: block;
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+        }
+
+        .btn-submit{
+            color: white;
+            background-color: rgb(23, 23, 154);
+            border-radius: 20px;
+            align-items: center;
+            padding: 10px;
+            width: 100%;
+        }
+
+        h3{
+            align-items: center;
+            text-align: center;
+        }
+        p{
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h3>Sign-Up Form</h3>
+
+        <form>
+            <label for="">Email Address</label>
+            <input class="text-input" type="email">
+            <br>
+
+            <label for="">Phone No.</label>
+            <input class="text-input" type="tel">
+            <br>
+
+            <label for="">Password</label>
+            <input class="text-input" type="password">
+            <br>
+
+            <button class="btn-submit">Submit</button>
+        </form>
+        <p>Already have an account? <a href="login.html">Log in</a></p>
+        
+
+
+    </div>
+</body>
+</html>
